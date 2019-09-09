@@ -33,7 +33,7 @@ You can also see this in app by logging in with the specified user, and looking 
 To customize to different flows, you can add a new flow in the `flows` array in the configuration file.
 
 The default structure looks like this:
-```
+```json
 {
   "flows": [
     {
