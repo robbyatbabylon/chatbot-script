@@ -56,6 +56,27 @@ The default structure looks like this:
         { "type": "choices", "value": "{answer to next question}" },
         { "type": "choices", "value": "Continue" }
       ]
+    },
+    {
+      "user": {
+        "email": "{patient_email}",
+        "password": "{patient_password}",
+        "login_type": "patient"
+      },
+      "options": {
+        "appName": "{app_name}",
+        "url": "{env_services_url}",
+        "locale": "{language_header}"
+      },
+      "steps": [
+        { "type": "choices", "value": "Continue" },
+        { "type": "symptom", "value": "{symptom from symptom selector}" },
+        { "type": "choices", "value": "{answer to next question}" },
+        { "type": "choices", "value": "{answer to next question}" },
+        ...
+        { "type": "choices", "value": "{answer to next question}" },
+        { "type": "choices", "value": "Continue" }
+      ]
     }
   ]
 }
