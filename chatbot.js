@@ -38,6 +38,10 @@ class Chatbot {
     this.user = user;
 
     this.conversation = [];
+
+    if (!fs.existsSync('./reports')) {
+      fs.mkdirSync('./reports');
+    }
   }
 
   async login() {

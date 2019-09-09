@@ -1,0 +1,44 @@
+{
+  "flows": [
+    {
+      "user": {
+        "email": "testuser.robby@babylonhealth.com",
+        "password": "Pa55word",
+        "login_type": "patient"
+      },
+      "options": {
+        "appName": "babylon_us",
+        "url": "https://services.us.preprod.babylontech.co.uk",
+        "locale": "en-US"
+      },
+      "steps": [
+        { "type": "choices", "value": "Continue" },
+        { "type": "symptom", "value": "Pain in penis" },
+        { "type": "choices", "value": "My penis hurts" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "Urinating more often than usual" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "None of the above" },
+        { "type": "choices", "value": "None of the above" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "None of the above" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "None of the above" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "For hours" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "No" },
+        { "type": "choices", "value": "Continue" }
+      ]
+    }
+  ]
+}
